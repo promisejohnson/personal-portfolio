@@ -1,0 +1,32 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 22px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.card:hover { border-color: var(--border); transform: translateY(-2px); }
+
+.top { display: flex; justify-content: space-between; align-items: flex-start; }
+.swatch { width: 34px; height: 34px; border-radius: 9px; }
+
+.categoryTags { display: flex; gap: 6px; }
+.categoryTag {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: 3px 9px;
+}
+
+.title { font-size: 16.5px; margin: 4px 0 0; }
+.description { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin: 0; }
+
+.highlight {
+  font-size: 12.5px; color: var(--text-muted); line-height: 1.6; margin: 4px 0 0;
+  border-left: 2px solid var(--accent); padding-left: 12px;
+}
+.highlightLabel { color: var(--accent-2); font-weight: 600; }
+
+.stackRow { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+.stackRow span { font-size: 11px; color: var(--text-dim); }

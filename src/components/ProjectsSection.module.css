@@ -1,0 +1,21 @@
+.section { padding: 72px 0; border-top: 1px solid var(--border-soft); }
+
+.header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px; margin-bottom: 36px; }
+
+.eyebrow { font-size: 12.5px; font-weight: 700; color: var(--accent); letter-spacing: 0.05em; text-transform: uppercase; }
+.title { font-size: 30px; margin: 12px 0 0; }
+
+.filterRow { display: flex; gap: 8px; }
+.filterChip {
+  padding: 7px 16px; border-radius: 999px; border: 1px solid var(--border);
+  background: none; color: var(--text-muted); font-size: 12.5px;
+}
+.filterChip:hover { border-color: var(--text-dim); }
+.filterChipActive { background: var(--accent); border-color: var(--accent); color: #0B0B0F; font-weight: 700; }
+
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+
+@media (max-width: 800px) {
+  .grid { grid-template-columns: 1fr; }
+  .section { padding: 48px 0; }
+}
