@@ -35,12 +35,12 @@ export const EXPERIENCE: ExperienceEntry[] = [
     role: 'Software Developer',
     org: 'Zentro Tech Solutions',
     period: '2025 — Present',
-    description: 'Brief description of scope and impact — what you owned, what shipped, what changed as a result.',
+    description: 'Build and enhance production software solutions, owning feature development from implementation through deployment. Work closely with product and engineering teams to resolve technical issues, improve performance, and deliver maintainable user-focused applications.',
   },
   {
     role: 'Junior Developer (Internship)',
     org: 'Awaal Ltd',
     period: '2023 — 2023',
-    description: 'Brief description of scope and impact.',
+    description: 'Assisted in building, testing, and maintaining application features under the guidance of senior developers. Contributed to bug fixes, code reviews, documentation, and quality assurance while developing hands-on experience in the software development lifecycle.',
   },
 ];
